@@ -1,0 +1,217 @@
+body,
+p,
+ul,
+dl,
+ol,
+dt,
+dd,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #666;
+  font-family: "微软雅黑";
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+img,
+input {
+  border: 0 none;
+  outline-style: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+    background-color: #f5f5f5;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+    background-color: #f5f5f5;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    background-color: #f5f5f5;
+  }
+}
+.nav {
+  width: 100%;
+}
+.nav .ding {
+  width: 100%;
+}
+.nav .ding img {
+  width: 100%;
+}
+.nav .quan {
+  background: #f7f4f1;
+  padding: 0.9375rem 0.75rem;
+  box-sizing: border-box;
+}
+.nav .quan .quan_1 {
+  width: 100%;
+  padding-bottom: 2.1875rem;
+}
+.nav .quan .quan_1 .quan_2 {
+  height: 1.75rem;
+  font-size: 0.9375rem;
+}
+.nav .quan .quan_1 .quan_2 p {
+  float: left;
+  color: black;
+}
+.nav .quan .quan_1 .quan_2 span {
+  float: right;
+  color: #999;
+}
+.nav .quan .quan_1 .quan_3 {
+  width: 100%;
+  height: 9.84375rem;
+  background-color: #55bc75;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 {
+  height: 7.34375rem;
+  background-image: url("../img/icon.png");
+  background-repeat: repeat-x;
+  background-size: 0.75rem 0.25rem;
+  background-position: bottom;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1.09375rem;
+  padding-left: 0.84375rem;
+  padding-bottom: 0.625rem;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 img {
+  width: 5rem;
+  position: absolute;
+  top: -0.46875rem;
+  right: 0rem;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 p:nth-child(1) {
+  color: white;
+  font-size: 1.5625rem;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 p:nth-child(2) {
+  color: #b2edc5;
+  padding-top: 0.3125rem;
+  padding-bottom: 1.875rem;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 i {
+  color: white;
+}
+.nav .quan .quan_1 .quan_3 .quan_4 span {
+  color: white;
+}
+.nav .quan .quan_1 .quan_3 .quan_5 {
+  height: 2.5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.nav .quan .quan_1 .quan_3 .quan_5 span {
+  flex: 1;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.nav .quan .chang_1 {
+  width: 100%;
+  padding-bottom: 2.1875rem;
+}
+.nav .quan .chang_1 .chang_2 {
+  height: 1.75rem;
+  font-size: 0.9375rem;
+}
+.nav .quan .chang_1 .chang_2 p {
+  float: left;
+  color: black;
+}
+.nav .quan .chang_1 .chang_2 span {
+  float: right;
+  color: #999;
+}
+.nav .quan .chang_1 .chang_3 {
+  width: 100%;
+  height: 9.84375rem;
+  background-color: #a974bc;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 {
+  height: 7.34375rem;
+  background-image: url("../img/icon.png");
+  background-repeat: repeat-x;
+  background-size: 0.75rem 0.25rem;
+  background-position: bottom;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1.09375rem;
+  padding-left: 0.84375rem;
+  padding-bottom: 0.625rem;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 img {
+  width: 5rem;
+  position: absolute;
+  top: -0.46875rem;
+  right: 0rem;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 span:nth-child(1) {
+  color: white;
+  font-size: 1.25rem;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 span:nth-child(2) {
+  color: white;
+  font-size: 2.5rem;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 span:nth-child(3) {
+  color: #eac7f7;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 p {
+  margin-top: 0.625rem;
+  color: white;
+}
+.nav .quan .chang_1 .chang_3 .chang_4 span:nth-child(6) {
+  color: white;
+}
+.nav .quan .chang_5 {
+  height: 2.5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.nav .quan .chang_5 span {
+  flex: 1;
+  text-align: center;
+  line-height: 2.5rem;
+  color: #c9c9c9;
+}
+.nav .quan .chang_5 i {
+  color: #a974bc;
+}
+.nav .quan .di {
+  padding-top: 2.3125rem;
+}
+.nav .quan .di p {
+  font-size: 0.9375rem;
+  color: #b5b5b5;
+  margin-bottom: 0.3125rem;
+}
